@@ -7,14 +7,13 @@ export const environment = {
 };
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCXDV4VTlBSUHNxDX97fXdcm9ijZB1ybLc",
-  authDomain: "logingaf.firebaseapp.com",
-  databaseURL: "https://logingaf.firebaseio.com",
-  projectId: "logingaf",
-  storageBucket: "logingaf.appspot.com",
-  messagingSenderId: "945473312650",
-  appId: "1:945473312650:web:a84003444e5fec8a901a73",
-  measurementId: "G-YMM4DCZYH4"
+  apiKey: "AIzaSyBrp_lGDv8OwHpzTDxKnHHfSZ8fzCdUazA",
+  authDomain: "ecommercelogin-32584.firebaseapp.com",
+  databaseURL: "https://ecommercelogin-32584.firebaseio.com",
+  projectId: "ecommercelogin-32584",
+  storageBucket: "ecommercelogin-32584.appspot.com",
+  messagingSenderId: "459352186193",
+  appId: "1:459352186193:web:b167114cc7356e3f844770"
 };
 
 /*

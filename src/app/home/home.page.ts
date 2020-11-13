@@ -23,8 +23,9 @@ export class HomePage {
     private fb: Facebook
   ) {}
 
+
   loginGoogle() {
-    if (this.platform.is('capacitor')) {
+    if (this.platform.is('android')) {
       this.loginGoogleAndroid();
     } else {
       this.loginGoogleWeb();
@@ -33,7 +34,7 @@ export class HomePage {
 
   async loginGoogleAndroid() {
     const res = await this.googlePlus.login({
-      'webClientId': '945473312650-fgpee13gk4vpbrqcnenbm4s5g78jtqk3.apps.googleusercontent.com',
+      'webClientId': "459352186193-8je124709rp6cff1tlpatj2bu6sfu0fa.apps.googleusercontent.com",
       'offline': true
     });
     const resConfirmed = await this.afAuth.auth.signInWithCredential(firebase.auth.GoogleAuthProvider.credential(res.idToken));
